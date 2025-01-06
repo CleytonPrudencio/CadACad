@@ -162,4 +162,8 @@ public class UserRepository implements JpaRepository<Users, Long> {
     public Page<Users> findAll(Pageable pageable) {
         return null;
     }
+
+    public Users findByUserId(Long userId) {
+        return null;
+    }
 }
