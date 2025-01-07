@@ -27,7 +27,4 @@ public class SchoolDTO {
         schoolCategory = entity.getSchoolCategory();
     }
 
-    public SchoolDTO() {
-
-    }
 }

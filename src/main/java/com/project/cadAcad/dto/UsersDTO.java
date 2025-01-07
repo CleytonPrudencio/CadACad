@@ -49,7 +49,4 @@ public class UsersDTO {
         updatedAt = entity.getUpdatedAt();
     }
 
-    public UsersDTO() {
-
-    }
 }

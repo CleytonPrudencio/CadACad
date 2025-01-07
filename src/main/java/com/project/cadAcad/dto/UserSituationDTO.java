@@ -16,7 +16,4 @@ public class UserSituationDTO {
         situationName = entity.getSituationName();
     }
 
-    public UserSituationDTO () {
-
-    }
 }

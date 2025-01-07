@@ -19,8 +19,4 @@ public class SchoolCategoryDTO {
         categoryId = entity.getCategoryId();
         categoryName = entity.getCategoryName();
     }
-
-    public SchoolCategoryDTO() {
-
-    }
 }

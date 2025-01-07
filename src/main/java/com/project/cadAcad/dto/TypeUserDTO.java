@@ -16,7 +16,4 @@ public class TypeUserDTO {
         nameType = entity.getNameType();
     }
 
-    public TypeUserDTO() {
-
-    }
 }
