@@ -25,4 +25,8 @@ public class AddressDTO {
         neighborhood = entity.getNeighborhood();
         zipcode = entity.getZipcode();
     }
+
+    public AddressDTO (){
+
+    }
 }

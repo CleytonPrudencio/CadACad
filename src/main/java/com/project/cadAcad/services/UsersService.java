@@ -16,6 +16,6 @@ public class UsersService {
     @Transactional(readOnly = true)
     public UsersDTO findByUserId(Long userId) {
         Users users = repository.findByUserId(userId);
-        return new UsersDTO(users);
+        return new UsersDTO((Users) users);
     }
 }

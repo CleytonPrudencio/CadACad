@@ -12,7 +12,7 @@ public class UsersDTO {
     private Long userId;
     private String username;
     private String email;
-    private String telefone;
+    private String telephone;
     private String address;
     private String situation;
     private String passwordHash;
@@ -21,11 +21,11 @@ public class UsersDTO {
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
-    public UsersDTO(Long userId, String username, String email, String telefone, String address, String situation, String passwordHash, String user_type, Long schoolId, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public UsersDTO(Long userId, String username, String email, String telephone, String address, String situation, String passwordHash, String user_type, Long schoolId, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.userId = userId;
         this.username = username;
         this.email = email;
-        this.telefone = telefone;
+        this.telephone = telephone;
         this.address = address;
         this.situation = situation;
         this.passwordHash = passwordHash;
@@ -39,7 +39,7 @@ public class UsersDTO {
         userId = entity.getUserId();
         username = entity.getUsername();
         email = entity.getEmail();
-        telefone = entity.getTelefone();
+        telephone = entity.getTelephone();
         address = entity.getAddress();
         situation = entity.getSituation();
         passwordHash = entity.getPasswordHash();

@@ -1,10 +1,10 @@
 package com.project.cadAcad.repositories;
 
-import com.project.cadAcad.entities.UserSituation;
+import com.project.cadAcad.entities.UsersSituation;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserSituationRepository extends JpaRepository<UserSituation, Long> {
+public interface UserSituationRepository extends JpaRepository<UsersSituation, Long> {
 
 }

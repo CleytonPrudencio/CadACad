@@ -17,7 +17,7 @@ public class Users {
     private Long userId;
     private String username;
     private String email;
-    private String telefone;
+    private String telephone;
     private String address;
     private String situation;
     private String passwordHash;

@@ -1,6 +1,7 @@
 package com.project.cadAcad.dto;
 
 import com.project.cadAcad.entities.SchoolCategory;
+import com.project.cadAcad.repositories.SchoolCategoryRepository;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -18,5 +19,8 @@ public class SchoolCategoryDTO {
     public SchoolCategoryDTO(SchoolCategory entity) {
         categoryId = entity.getCategoryId();
         categoryName = entity.getCategoryName();
+    }
+
+    public SchoolCategoryDTO(SchoolCategoryRepository schoolCategoryRepository) {
     }
 }

@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
+
 @Entity
 @Table(name = "school")
 @Getter
@@ -15,6 +17,10 @@ public class School {
     private Long schoolId;
     private String schoolName;
     private String schoolAddress;
+    private String telephone;
+    private String email;
+    private LocalDateTime creationDate;
+    private LocalDateTime updateDate;
 
     @ManyToOne
     @JoinColumn(name = "school_categories")
